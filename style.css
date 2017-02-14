@@ -28,27 +28,29 @@
     background-image: url("https://ununsplash.imgix.net/photo-1427434846691-47fc561d1179?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050");
 
   /* Set a specific height */
-     height: 800px;
+     height: 600px;
 
   /* Create the parallax scrolling effect */
      background-attachment: fixed;
      background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      padding: -left: 0px;
-      padding: -right: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      width: 100vw;
 
 }
 
    .intro-container   {
      position:absolute;
      left: 30%;
-     top: 20%;
+     top: 50%;
    }
    .Website-intro    {
-      font-size: 70px;
+      font-size: 50px;
       text-align: center;
-      margin-top: 50px;
+      margin-top: -30px;
+
       color: white;
       font-family: sans-serif;
 
@@ -69,40 +71,49 @@
       text-transform: uppercase;
       font-size: 50px;
       padding-top: 30px;
+      padding-left: 20px;
+      padding-right: 20px;
+
     }
     .About-tim-container  {
-      padding:50px;
+      padding-top: 10%;
     }
     .About-tim-container hr   {
       color:brown;
       background: brown;
       border: 1px solid;
+      width: 80%;
     }
 
     .About-tim-container p  {
       text-align: center;
-      font-size: 25px;
+      font-size: 20px;
       color:grey;
-      padding: 100px;
+      padding-top:20px;
+      padding-bottom: 20px;
+      padding-left: 50px;
+      padding-right: 50px;
       font-family: sans-serif,helvetica;
 }
 
     .About-tim-container img    {
        padding:20px;
 
+
     }
     .what-container    {
-      padding:100px;
+      padding-top: 70px;
+      padding-top: 10%;
     }
 
 
     .what-container hr    {
       border : 1px solid;
       color: brown;
-
+       width: 50%
     }
     .what-container img{
-      padding: 40px;
+      padding: 30px;
     }
     .title{
       text-align: center;
@@ -114,50 +125,67 @@
       text-align:center;
       font-size:17px;
       line-height: 20px;
-      padding-left: 50px;
-      padding-right: 50px;
+      padding-right: 40px;
+      padding-left: 40px;
       padding-top: 20px;
       color: #757575;
       font-weight:500;
     }
-    .Famous-Container{
-      padding:80px;
+    .Famous-Container    {
+      padding-top:50px;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 10%;
     }
-    .Famous-Container hr{
+    .Famous-Container hr   {
       border: 1px solid;
       color: brown;
+      width: 80%;
+
     }
-    .Famous-Container p{
+    .desc    {
       text-align: center;
-      padding: 40px;
+      padding: 30px;
+      font-size: 25px;
+      color: grey;
+      font-weight: 500;
+    }
+    .fam-descr{
+      text-align: center;
+      padding: 10px;
+      font-weight: 300;
       font-size: 17px;
       color: grey;
     }
 
-    .Famous-Container img{
-      padding: 30px;
+    .Famous-Container img    {
+      padding: 50px;
       position: relative;
 
+
     }
-    #effect:hover{
+    #effect:hover         {
       background-color: black;
+      
+
+
     }
-    .details{
+    .details              {
       text-align: center;
       font-size: 25px;
       font-weight: 500;
       padding-top: 5px;
 
     }
-    .heading-fam{
+    .heading-fam        {
       text-align: center;
 
     }
-    .button-pos{
+    .button-pos        {
       text-align: center;
 
     }
-       .button1 {
+       .button1        {
         background-color: #616161;
         border: white;
         color: white;
@@ -170,37 +198,54 @@
         border-radius: 30px;
 
     }
-    .what-ppl-container{
-      padding:50px;
+    .what-ppl-container     {
+      padding:30px;
+      padding-top: 30px;
     }
-    .what-ppl-container hr{
+    .what-ppl-container hr   {
       border : 1px solid;
       color: brown;
       background: brown;
     }
-    .name{
+    .name     {
       text-transform: uppercase;
       font-weight: bold;
       color:#6D4C41;
       font-size:15px;
-      padding-right: 30px;
+      padding-right: 20px;
+      text-align: center;
     }
-    .what-ppl-container p{
-      padding:50px;
+    .what-ppl-container p  {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      padding-left: 20px;
+      padding-right: 20px;
+      text-align: center;
+      font-size: 17px;
+      font-weight: 500;
+      color:grey;
+
     }
-    #Abhi-feed, #Fars-feed,#Kh-feed{
+    #Abhi-feed, #Fars-feed,#Kh-feed   {
       display:none;
     }
     .meet-our-team  {
-      padding-top:150px;
+
+      padding-top: 150px;
+      padding-right: 0px;
+      padding-left:0px;
+      text-align: center;
     }
-    .meet-our-team hr{
+    .meet-our-team hr    {
       border:1px solid;
       color:grey;
       width:50%;
     }
-    .meet-our-team img{
-      border-radius: 120px;
+    .meet-our-team img    {
+      border-radius: 150px;
+      align-items: center;
+      align-self: center;
+
     }
 
     .person-name h4   {
@@ -211,40 +256,45 @@
     .team-description p   {
       font-size: 15px;
       text-align: center;
-      padding: 10px;
-      font-weight: 300;
+      padding: 20px;
+
+      font-weight: 400;
       color:grey;
     }
 
 
-    .team-icon{
+    .team-icon    {
       padding:20px;
       text-align: center;
     }
-    .numbers-dont-lie{
-      padding:120px;
+    .numbers-dont-lie {
+      padding-left :30px;
+      padding-right:30px;
+      padding-top: 50px;
     }
-    .numbers-dont-lie hr{
+    .numbers-dont-lie hr   {
       border: 1px solid;
       color: brown;
       width: 100%;
     }
-    .numbers-dont-lie p{
-      padding: 50px;
+    .numbers-dont-lie p   {
+      padding-top: 50px;
+      padding-left: 0px;
+      padding-right: 0px;
       text-align: center;
-      font-size: 30px;
+      font-size: 25px;
       font-weight: 500;
     }
-    .data{
+    .data      {
       font-size: 25px;
-      padding:25px;
+      padding-top: 25px;
       text-align: center;
     }
-    .data-head{
+    .data-head   {
       font-size: 15px;
       text-align: center;
     }
-    .numbers{
+    .numbers    {
       text-align: center;
       font-size:30px;
       color:brown;
@@ -299,11 +349,7 @@
         position: relative;
         top: -2px;
         width: 24px;
-         .btn-social .fa {
-            font-size: 18px;
-            vertical-align: middle;
-            display: inline-block;
-        }
+
         .footer .btn-social {
         color: #9A9A9A;
         font-size: 15px;
